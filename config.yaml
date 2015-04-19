@@ -1,0 +1,5 @@
+baseurl: "http://zhezhang.co"
+languageCode: "en-us"
+title: "Zhe"
+permalinks:
+  post: /:year/:month/:title/
