@@ -6,3 +6,5 @@ title = "contact"
 +++
 
 Contact
+
+This is a contact page.
