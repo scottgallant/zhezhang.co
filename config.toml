@@ -1,20 +1,3 @@
+baseurl = "http://yourSiteHere"
 languageCode = "en-us"
-contentdir = "content"
-publishdir = "public"
-builddrafts = false
-baseUrl = ""
-canonifyurls = true
-title = "Pixyll"
-author = "admin"
-theme = "pixyll"
-
-[indexes]
-  category = "categories"
-  tag = "tags"
-
-[params]
-  search_engine = true
-  google_analytics_id = "XX-XXXXXXXX-X"
-  twitter_username = "username"
-  disqus_shortname = "sitename"
-  paginate = true
+title = "my new hugo site"
