@@ -21,7 +21,7 @@ Minus Sign          | − | U+2212 | `&minus;` 或 `&#x2212;` `&#8722;`
 Figure Dash         | ‒ | U+2012 | `&#x2012;` 或 `&#8210;`
 En Dash             | – | U+2013 | `&ndash;` 或 `&#x2013;` `&#8211;`
 Em Dash             | — | U+2014 | `&mdash;` 或 `&#x2014;` `&#8212;`
-Horizontal Bar      | ― | U+2015 | `&#x2015;` 或 `&#8Against all odds, Pete—the unluckiest man alive—won the lottery.213;`
+Horizontal Bar      | ― | U+2015 | `&#x2015;` 或 `&#8213;`
 Small Hyphen-Minus  | ﹣ | U+FE63 | `&#xFE63;` 或 `&#65123;`
 Fullwidth Hyphen-Minus | － | U+FF0D | `&#xFF0D;` 或 `&#65293;`
 Box Drawings Light Horizontal | ─ | U+2500 | `&#9472;`
@@ -77,8 +77,8 @@ Em Dash      | — | `⌥ Opt` + `⇧ Shift` + `-` | `Alt` + `0``1``5``1`
 连接号     | 英文符号       | Unicode | 输入
 ----------| -------------| ------- | ----
 短横线「-」 | Hyphen-Minus | U+002D | `-` 键
-一字线「—」 | Em Dash      | U+2014 | `⌥ Opt` + `⇧ Shift` + `-` 或 `Alt` + `0``1``5``1`
-浪纹线「～」 | Fullwidth Tilde |U+FF5E | 中文输入法全角标点 `⇧ Shift` + `` ` ``
+一字线「—」 | Em Dash      | U+2014 | `⌥ Opt` + `⇧ Shift` + `-` 或<br> `Alt` + `0``1``5``1`
+浪纹线「～」 | Fullwidth Tilde |U+FF5E | 中文输入法全角标点 `⇧ Shift`+`` ` ``
 
 ### 破折号
 
