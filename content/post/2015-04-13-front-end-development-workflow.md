@@ -1,6 +1,7 @@
 +++
 date = "2015-04-13"
 title = "Front-end Development Workflow"
+slug = "frong-end-development-workflow"
 
 +++
 

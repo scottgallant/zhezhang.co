@@ -1,6 +1,7 @@
 +++
 date = "2015-01-12"
 title = "在 DigitalOcean 搭建 Ghost 博客平台"
+slug = "deploy-ghost-on-digitalocean"
 
 +++
 

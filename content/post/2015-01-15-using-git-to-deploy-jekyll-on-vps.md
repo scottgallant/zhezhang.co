@@ -1,6 +1,7 @@
 +++
 date = "2015-01-15"
 title = "在 VPS 上用 Git 部署 Jekyll"
+slug = "deploy-jekyll-with-git-on-your-vps"
 
 +++
 

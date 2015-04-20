@@ -1,6 +1,7 @@
 +++
 date = "2015-03-01"
 title = "CSS Methodology"
+slug = "css-methodology"
 
 +++
 

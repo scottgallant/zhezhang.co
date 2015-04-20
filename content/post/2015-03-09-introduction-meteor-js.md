@@ -1,6 +1,7 @@
 +++
 date = "2015-03-09"
 title = "Meteor.js 简介"
+slug = "introduction-meteor-js"
 
 +++
 
