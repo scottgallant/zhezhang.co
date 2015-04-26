@@ -1,6 +1,6 @@
 baseurl: "http://zhezhang.co"
 languageCode: "en-us"
 title: "Zhe"
-theme: "hyde"
+theme: "slim"
 permalinks:
   post: /:year/:month/:slug/
