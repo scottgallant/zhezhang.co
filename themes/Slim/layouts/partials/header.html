@@ -1,8 +1,6 @@
 <div class="header">
   <h1 class="site-title"><a href="{{ .Site.BaseUrl }}">{{ .Site.Title }}</a></h1>
-  <p class="site-tagline">1{{ .Site.Copyright }}</p>
-  <p class="site-tagline">2{{ .Site.Params.othervalue }}</p>
-  <p class="site-tagline">1{{ .Site.Params.Subtitle  }}</p>
+  <p class="site-tagline">{{ .Site.Params.Subtitle  }}</p>
   <div class="nav">
     <a class="nav-btn" href="#">
       <span class="ci ci-burger"></span>

@@ -1,5 +1,4 @@
 name = "Slim"
-author = "Zhe Zhang"
 description = "A slim minimal theme for Hugo."
 license = "MIT"
 source_repo = "https://github.com/zhe/hugo-theme-slim"
@@ -8,6 +7,3 @@ tags = ["minimal", "clean", "neat"]
 [author]
   name = "Zhe Zhang"
   homepage = "http://zhezhang.co"
-[params]
-  Subtitles = "sssssSpinning the cogs in the widgets"
-  GitHubUser = "sssspf13"
