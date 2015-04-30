@@ -1,6 +1,12 @@
 baseurl: "http://zhezhang.co"
 languageCode: "en-us"
-title: "Zhe"
+title: "Zhe Zhang"
 theme: "slim"
 permalinks:
   post: /:year/:month/:slug/
+
+params:
+  Subtitle: "A personal site made in Shanghai."
+  GithubID: "zhe"
+  TwitterID: "neomana"
+  AnalyticsID: "UA-58516870-1"
