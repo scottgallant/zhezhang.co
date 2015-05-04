@@ -5,13 +5,13 @@ slug = "introduction-meteor-js"
 
 +++
 
-*自从2014年11月接触 Meteor.js 以来，一直被它的概念和方式吸引着。并一心学习并想写写关于 Meteor 的文章。此篇也不是 Meteor 的教程，只是简介。*
+自从 2014 年 11 月接触 Meteor.js 以来，一直被它的概念和方式吸引着。并一心学习并想写写关于 Meteor 的文章。此篇也不是 Meteor 的教程，只是简介。
 
 ##### 什么是 Meteor.js？
 
-> *"Meteor is a complete open source platform for building web and mobile apps in pure JavaScript."*
+> "Meteor is a complete open source platform for building web and mobile apps in pure JavaScript."
 
-> *www.meteor.com*
+> www.meteor.com
 
 Meteor 是一个开源的开发平台，通过使用 JavaScript 语言，快速地搭建现代的 web 和 mobile 应用。服务器基于 Node.js，官网也介绍了[很多特性](www.meteor.com)和[七大原则](http://docs.meteor.com/#/basic/sevenprinciples)，其中我认为重要的几点是：
 

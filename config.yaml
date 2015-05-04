@@ -4,6 +4,7 @@ title: "Zhe Zhang"
 theme: "slim"
 permalinks:
   post: /:year/:month/:slug/
+paginate: 10
 
 params:
   Subtitle: "A personal site made in Shanghai."
