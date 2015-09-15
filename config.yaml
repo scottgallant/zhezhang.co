@@ -7,7 +7,7 @@ permalinks:
 paginate: 10
 
 params:
-  Subtitle: "A personal site made in Shanghai."
+  Subtitle: "Product Designer / Front-end Developer"
   GithubID: "zhe"
   TwitterID: "neomana"
   AnalyticsID: "UA-58516870-1"

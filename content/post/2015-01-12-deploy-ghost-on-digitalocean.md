@@ -56,7 +56,7 @@ sudo apt-get install -y nodejs
 
 如果你分别运行 `node -v` 和 `npm -v`，如果安装成功的话，会得到 Node.js 和 npm 版本号：
 
-```
+```bash
 $ node -v
 v.0.10.35
 $ npm -v
@@ -151,7 +151,7 @@ sudo nano ghost
 
 复制粘贴下面代码，记得将 your-domain.com 改为你的域名：
 
-```
+```nginx
 server {
     listen 80;
     server_name your-domain.com;
@@ -171,7 +171,7 @@ server {
 
 然后创建一个链接到 `/etc/nginx/sites-enabled/`
 
-```
+```bash
 sudo ln -s /etc/nginx/sites-available/ghost /etc/nginx/sites-enabled/
 ```
 
@@ -184,7 +184,7 @@ sudo nano /srv/www/ghost/config.js
 修改 production 的 url 为你的域名，`Ctrl+X` 退出，点 `y` 然后 `Enter`。
 
 
-```
+```bash
 npm start --production
 ```
 
@@ -198,7 +198,7 @@ Node 进程管理器 [PM2](https://github.com/Unitech/pm2) 更先进，除了能
 
 首先 `Ctrl+C` 停止 Ghost 应用，然后安装和运行 PM2：
 
-```
+```bash
 sudo npm install pm2 -g
 cd /srv/www/ghost
 NODE_ENV=production pm2 start index.js --name "Ghost"
@@ -222,7 +222,7 @@ sudo env PATH=$PATH:/usr/bin pm2 startup ubuntu -u user
 
 然后保存当前的进程，在服务器重启后，会自动运行当前的 node 进程。
 
-```
+```bash
 pm2 save
 [PM2] Dumping processes
 ```
