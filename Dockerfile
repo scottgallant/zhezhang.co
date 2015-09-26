@@ -18,4 +18,4 @@ COPY . /srv/hugo
 
 WORKDIR /srv/hugo
 EXPOSE 1313
-CMD ["hugo", "server", "--watch"]
+CMD ["hugo", "server", "--watch", "--port=80"]
