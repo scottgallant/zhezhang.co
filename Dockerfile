@@ -12,7 +12,7 @@ RUN wget --no-check-certificate https://github.com/spf13/hugo/releases/download/
     && tar -xzf ${HUGO_BINARY}.tar.gz \ 
     && mv /tmp/${HUGO_BINARY}/${HUGO_BINARY} /usr/local/bin/hugo
 
-RUN mkdir -p /srv/hugo
+RUN mkdir -p /srv/hugo/themes/slim
 COPY . /srv/hugo
 
 RUN wget --no-check-certificate https://github.com/zhe/hugo-theme-slim/archive/master.tar.gz \
