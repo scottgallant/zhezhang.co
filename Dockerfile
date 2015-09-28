@@ -17,5 +17,5 @@ RUN mkdir -p /srv/hugo
 COPY . /srv/hugo
 
 WORKDIR /srv/hugo
-EXPOSE 80
-CMD ["hugo", "server", "--watch", "--port=80"]
+EXPOSE 1313
+CMD ["hugo", "server"]
