@@ -10,17 +10,12 @@ WORKDIR /tmp
 
 RUN wget --no-check-certificate https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY}.tar.gz \
     && tar -xzf ${HUGO_BINARY}.tar.gz \ 
-    && mv /tmp/${HUGO_BINARY}/${HUGO_BINARY} /usr/local/bin/hugo
+    && mv /tmp/${HUGO_BINARY}/${HUGO_BINARY} /usr/local/bin/hugo \
+    && rm -rf /tmp/*
 
 RUN mkdir -p /srv/hugo
 COPY . /srv/hugo
 
-RUN wget --no-check-certificate https://github.com/zhe/hugo-theme-slim/archive/master.tar.gz \
-    && tar -xzf master.tar.gz
-
-RUN cp -R /tmp/hugo-theme-slim-master/* /srv/hugo/themes/slim \
-    && rm -rf /tmp/*
-
 WORKDIR /srv/hugo
-EXPOSE 1313
-CMD ["hugo", "server"]
+EXPOSE 80
+CMD ["hugo", "server", "--bind=0.0.0.0", "--baseUrl=http://zhezhang.co/", "--port=80", "--appendPort=false"]
