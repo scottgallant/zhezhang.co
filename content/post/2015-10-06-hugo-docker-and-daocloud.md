@@ -1,6 +1,6 @@
 +++
 date = "2015-10-06"
-title = "Hugo, Docker and Daocloud"
+title = "Hugo, Docker and DaoCloud"
 slug = "hugo-docker-and-daocloud"
 
 +++
