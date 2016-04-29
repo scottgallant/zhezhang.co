@@ -1,13 +1,17 @@
-baseurl: "http://zhezhang.co"
-languageCode: "en-us"
-title: "Zhe Zhang"
-theme: "slim"
+---
+title: Zhe Zhang
+theme: slim
+sitemap:
+  ChangeFreq: ''
+  Priority: "-1"
+  Filename: sitemap.xml
+pluralizelisttitles: false
 permalinks:
-  post: /:year/:month/:slug/
-paginate: 10
-
+  post: "/:year/:month/:slug/"
+languagecode: en-us
+baseurl: http://zhezhang.co
 params:
-  Subtitle: "Product Designer / Front-end Developer"
-  GithubID: "zhe"
-  TwitterID: "neomana"
-  AnalyticsID: "UA-58516870-1"
+  analyticsid: UA-58516870-1
+  githubid: zhe
+  subtitle: Product Designer / Front-end Developer
+  twitterid: neomana

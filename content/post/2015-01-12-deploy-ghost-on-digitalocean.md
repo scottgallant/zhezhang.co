@@ -1,10 +1,9 @@
 +++
-date = "2015-01-12"
+date = "2015-01-12T00:00:00+00:00"
+draft = false
 title = "在 DigitalOcean 搭建 Ghost 博客平台"
-slug = "deploy-ghost-on-digitalocean"
 
 +++
-
 [Ghost](https://ghost.org/) 是一个基于 Node.js 平台的免费开源的简洁优雅的博客平台。随着 WordPress 起初作为博客平台逐渐发展到内容管理系统，逐渐变得臃肿起来，已经开始定位于更广大的内容平台，而 Ghost 这个开源项目使用当下流行的 Node.js，只专注于博客，轻量、美观、支持 markdown 文章编辑、支持多用户协作，赢得了众人关注。[DigitalOcean](https://www.digitalocean.com/?refcode=f3851a9bdb88) 是非常优秀的 VPS 服务器提供商，价格不高但服务不错。这篇文章向大家介绍如何在 DigitalOcean 上搭建 Ghost 博客平台。
 
 ##### 目录

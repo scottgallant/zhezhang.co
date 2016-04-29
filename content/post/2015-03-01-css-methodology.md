@@ -1,10 +1,9 @@
 +++
-date = "2015-03-01"
+date = "2015-03-01T00:00:00+00:00"
+draft = false
 title = "CSS Methodology"
-slug = "css-methodology"
 
 +++
-
 怎样去写 CSS ？
 
 CSS 很容易，可如何清晰地组织编写 CSS，有很多种方法论（Methodology）：BEM、OOCSS、SMACSS 和 SUIT CSS 等。你会为下一个项目选择哪种方法呢？自己的项目或者你所在的团队的项目，都在使用什么方法来组织、命名和编写 CSS 文件呢。

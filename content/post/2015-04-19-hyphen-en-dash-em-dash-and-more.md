@@ -1,10 +1,9 @@
 +++
-date = "2015-04-19"
+date = "2015-04-19T00:00:00+00:00"
+draft = false
 title = "连接号与破折号"
-slug = "hyphen-en-dash-em-dash-and-more"
 
 +++
-
 非常想做一个 Medium-like 对中文友好的在线文本编辑器，让中文显示变得优雅规范。在使用 Medium 编辑器时，发现其功能可以自动转换用户输入的「-」符号，像 Office Word 一样。
 
 在数字之间，`-` 会自动转换成 `–`，如：in years 2010–2015、pages 18–19。

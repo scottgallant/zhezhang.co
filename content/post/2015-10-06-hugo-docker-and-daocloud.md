@@ -1,10 +1,9 @@
 +++
-date = "2015-10-06"
+date = "2015-10-06T00:00:00+00:00"
+draft = false
 title = "Hugo, Docker and DaoCloud"
-slug = "hugo-docker-and-daocloud"
 
 +++
-
 Recently, I've been playing with [Docker](https://www.docker.com/) and [DaoCloud](https://www.daocloud.io/) and I found both of them amazing. So I decided to see what they could do on dockerizing my [Hugo](http://gohugo.io/) site and integrate it with DaoCloud's CI service. The main workflow is like this: I setup a repo of my dockerized site on Github, and everytime I commit the changes to the repo with a new tag, it will automatically trigger DaoCloud to build and update this very site.
 
 ### Dockerize the existing Hugo site

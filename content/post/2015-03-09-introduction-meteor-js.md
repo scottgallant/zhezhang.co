@@ -1,10 +1,9 @@
 +++
-date = "2015-03-09"
+date = "2015-03-09T00:00:00+00:00"
+draft = false
 title = "Meteor.js 简介"
-slug = "introduction-meteor-js"
 
 +++
-
 自从 2014 年 11 月接触 Meteor.js 以来，一直被它的概念和方式吸引着。并一心学习并想写写关于 Meteor 的文章。此篇也不是 Meteor 的教程，只是简介。
 
 ##### 什么是 Meteor.js？

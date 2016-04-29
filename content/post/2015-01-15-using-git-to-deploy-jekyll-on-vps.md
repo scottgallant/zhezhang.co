@@ -1,10 +1,9 @@
 +++
-date = "2015-01-15"
+date = "2015-01-15T00:00:00+00:00"
+draft = false
 title = "在 VPS 上用 Git 部署 Jekyll"
-slug = "deploy-jekyll-with-git-on-your-vps"
 
 +++
-
 Jekyll 是一个开源的、简单的（无需数据库）、博客意识的（永久连接、文章、页面、目录、标签等）、 静态 的（Markdown、HTML 和 CSS）网站生成器，由 Github 的共同创始人 Tom Preston-Werner 用 Ruby 语言在 2008 年开发的。官方网站 http://jekyllrb.com/
 
 在服务器上部署 Git 这对小型团队密切协同工作的一个非常好的方案。在服务器上建立一个项目的裸仓库，通过 SSH 连接你和团队成员就可以协作开发同一项目了。如果整个项目只有你一人，也没有关系，为你的项目代码在服务器上留个备份也好，且保留了整个开发过程中的历史记录。这里用 Git 部署 Jekyll 原理一样，当你在本地的工作目录撰写了一篇文章，通过 `git push` 推送到服务器上时，服务器上的 Jekyll 会自动 build 整个网站，在浏览器中就可以看到网站的更新了。

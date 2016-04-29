@@ -1,10 +1,9 @@
 +++
-date = "2015-04-21"
+date = "2015-04-21T00:00:00+00:00"
+draft = false
 title = "Deploy"
-draft = true
 
 +++
-
 [Hugo](www.gohugo.io) is a fast & modern static website engine written in GO language.
 
 最近刚刚接触 Hugo，感觉它非常灵活有趣，速度也很快，所以把自己的博客转成了 Hugo 平台，用 Git `push` 到 Digital Ocean 上。安装搭建配置使用的方法步骤过程如下：
